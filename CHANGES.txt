@@ -1,2 +1,6 @@
 Version history
 ===============
+
+1.0 (2020-03-31):
+
+- added: users can be redirected to another page when going to home
