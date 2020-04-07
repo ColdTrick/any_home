@@ -22,5 +22,6 @@ class Bootstrap extends DefaultPluginBootstrap {
 		
 		$response = elgg_redirect_response(elgg_normalize_url($setting));
 		_elgg_services()->responseFactory->respond($response);
+		exit();
 	}
 }
