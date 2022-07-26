@@ -10,7 +10,7 @@ class Bootstrap extends DefaultPluginBootstrap {
 	 * {@inheritDoc}
 	 */
 	function boot() {
-		if (current_page_url() !== elgg_get_site_url()) {
+		if (elgg_get_current_url() !== elgg_get_site_url()) {
 			return;
 		}
 		
