@@ -23,7 +23,12 @@ class Bootstrap extends DefaultPluginBootstrap {
 			return;
 		}
 		
-		$response = elgg_redirect_response(elgg_normalize_url($setting));
+		$url = elgg_normalize_site_url($setting);
+		if (empty($url)) {
+			return;
+		}
+		
+		$response = elgg_redirect_response($url);
 		_elgg_services()->responseFactory->respond($response);
 		exit();
 	}
