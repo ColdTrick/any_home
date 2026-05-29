@@ -1,6 +1,10 @@
 Version history
 ===============
 
+4.0.3 (2026-05-29):
+
+- several small chores/fixes
+
 4.0.2 (2024-06-28):
 
 - fixed: only allow redirects to internal site links
