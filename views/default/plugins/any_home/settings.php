@@ -1,6 +1,6 @@
 <?php
 
-/* @var $entity ElggPlugin */
+/** @var \ElggPlugin $entity */
 $plugin = elgg_extract('entity', $vars);
 
 echo elgg_view('output/longtext', ['value' => elgg_echo('any_home:settings:redirect:info')]);
